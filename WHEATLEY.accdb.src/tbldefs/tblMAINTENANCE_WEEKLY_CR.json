@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tblMAINTENANCE_WEEKLY_CR",
+    "Connect": ";DATABASE=rel:WHEATLEY - backend\\WHEATLEY_be.accdb",
+    "SourceTableName": "tblMAINTENANCE_WEEKLY_CR",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID]"
+  }
+}

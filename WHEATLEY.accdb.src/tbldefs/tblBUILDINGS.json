@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tblBUILDINGS",
+    "Connect": ";DATABASE=rel:WHEATLEY - backend\\WHEATLEY_be.accdb",
+    "SourceTableName": "tblBUILDINGS",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID]"
+  }
+}

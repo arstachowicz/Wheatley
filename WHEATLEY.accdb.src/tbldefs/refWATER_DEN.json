@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "refWATER_DEN",
+    "Connect": ";DATABASE=rel:WHEATLEY - backend\\WHEATLEY_be.accdb",
+    "SourceTableName": "refWATER_DEN",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[temp]"
+  }
+}

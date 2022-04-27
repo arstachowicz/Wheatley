@@ -1,0 +1,6 @@
+﻿CREATE TABLE [tblPART_TYPES] (
+  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [partType] VARCHAR (255),
+  [relTable] VARCHAR (255),
+  [relQuery] VARCHAR (255)
+)

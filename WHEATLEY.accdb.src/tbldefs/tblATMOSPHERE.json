@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tblATMOSPHERE",
+    "Connect": ";DATABASE=rel:WHEATLEY - backend\\WHEATLEY_be.accdb",
+    "SourceTableName": "tblATMOSPHERE",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID]"
+  }
+}

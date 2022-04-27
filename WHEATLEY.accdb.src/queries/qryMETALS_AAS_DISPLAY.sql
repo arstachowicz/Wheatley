@@ -1,0 +1,3 @@
+﻿SELECT TOP 15 tblMETALS_AAS.timeDate, tblLABORATORIES.nameLab, tblCHEMICALS.chemical, tblLINES.Line, tblMETALS_AAS.perAcid, tblMETALS_AAS.density, tblMETALS_AAS.Copper, tblMETALS_AAS.unitCu, tblMETALS_AAS.Nickel, tblMETALS_AAS.unitNi, tblMETALS_AAS.Iron, tblMETALS_AAS.unitFe, tblMETALS_AAS.chromium, tblMETALS_AAS.unitCr, tblMETALS_AAS.zinc, tblMETALS_AAS.unitZn, tblMETALS_AAS.molybdenum, tblMETALS_AAS.unitMo, tblMETALS_AAS.comments
+FROM ((tblLABORATORIES RIGHT JOIN tblMETALS_AAS ON tblLABORATORIES.ID = tblMETALS_AAS.laboratory) LEFT JOIN tblCHEMICALS ON tblMETALS_AAS.acid = tblCHEMICALS.ID) LEFT JOIN tblLINES ON tblMETALS_AAS.line = tblLINES.ID
+ORDER BY tblMETALS_AAS.timeDate DESC , tblCHEMICALS.chemical, tblLINES.Line;
