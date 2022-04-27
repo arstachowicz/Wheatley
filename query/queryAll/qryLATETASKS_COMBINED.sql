@@ -1,0 +1,4 @@
+SELECT tblSUPERVISORS.ID, tblTASKLIST.ID, tblTASKLIST.taskTitle, tblTASKLIST.frequency, tblSUPERVISORS.email, DMax("timeDate",[tableRel]) AS lastENTRY, IIf([FREQUENCY]=1,DateAdd("d",1,[lastENTRY]),IIf([FREQUENCY]=2,DateAdd("d",2,[lastENTRY]),IIf([FREQUENCY]=7,DateAdd("ww",1,[lastENTRY]),IIf([FREQUENCY]=14,DateAdd("ww",2,[lastENTRY]),IIf([FREQUENCY]=30,DateAdd("m",1,[lastENTRY]),IIf([FREQUENCY]=81,DateAdd("q",1,[lastENTRY]),IIf([FREQUENCY]=365,DateAdd("yyyy",1,[lastENTRY]),""))))))) AS nextOccurance, DateAdd("d",[alertEmail],[nextOccurance]) AS emailSendDate, tblTASKLIST.combined, tblTASKLIST.tableRel
+FROM tblSUPERVISORS INNER JOIN tblTASKLIST ON tblSUPERVISORS.ID = tblTASKLIST.supervisorResponsible.Value
+WHERE (((tblSUPERVISORS.email)<>"") AND ((tblTASKLIST.combined)=True) AND ((tblSUPERVISORS.Employed)=True))
+ORDER BY tblSUPERVISORS.ID;

@@ -1,0 +1,4 @@
+SELECT TOP 15 tblMAINTENANCE_MONTHLY_CR.timeDate, tblMAINTENANCE_MONTHLY_CR.timeHour, tblMAINTENANCE_MONTHLY_CR.cleanWalls, tblMAINTENANCE_MONTHLY_CR.cleanCeilings, tblTECHNAME.firstName, tblTECHNAME.lastName, tblSHIFTS.shift, tblMAINTENANCE_MONTHLY_CR.leakCal4, tblMAINTENANCE_MONTHLY_CR.leakCal5, tblMAINTENANCE_MONTHLY_CR.leakCal6, tblMAINTENANCE_MONTHLY_CR.leakCal7, IIf(IsNull([calVal])=False,[calVal],IIf(IsNull([standVal])=False,[standval]/([openVal]-[closedVal]),"")) AS Factor
+FROM (tblMAINTENANCE_MONTHLY_CR LEFT JOIN tblTECHNAME ON tblMAINTENANCE_MONTHLY_CR.techName = tblTECHNAME.ID) LEFT JOIN tblSHIFTS ON tblTECHNAME.shift = tblSHIFTS.ID
+WHERE (((tblMAINTENANCE_MONTHLY_CR.timeDate)>=[TempVars]![tmpDate1] And (tblMAINTENANCE_MONTHLY_CR.timeDate)<=[TempVars]![tmpDate2]))
+ORDER BY tblMAINTENANCE_MONTHLY_CR.timeDate DESC , tblMAINTENANCE_MONTHLY_CR.timeHour DESC;

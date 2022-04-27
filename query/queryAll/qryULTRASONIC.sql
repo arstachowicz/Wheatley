@@ -1,0 +1,4 @@
+SELECT tblULTRASONICS.timeDate, tblULTRASONICS.timeHour, tblULTRASONICS.building, tblULTRASONICS.tank, tblULTRASONICS.temperature, tblULTRASONICS.position1, tblULTRASONICS.position2, tblULTRASONICS.position3, tblULTRASONICS.position4, tblULTRASONICS.position5, tblULTRASONICS.position6, tblULTRASONICS.position7, tblULTRASONICS.position8, tblULTRASONICS.position9, tblTECHNAME.firstName, tblTECHNAME.lastName
+FROM (tblTECHNAME RIGHT JOIN tblULTRASONICS ON tblTECHNAME.ID = tblULTRASONICS.techName) LEFT JOIN tblBUILDINGS ON tblULTRASONICS.building = tblBUILDINGS.ID
+WHERE (((tblULTRASONICS.timeDate)>=[TempVars]![tmpDate1] And (tblULTRASONICS.timeDate)<=[TempVars]![tmpDate2]) AND ((tblULTRASONICS.building) Like [TempVars]![tmpBuilding]) AND ((tblULTRASONICS.tank) Like [TempVars]![tmpTank]))
+ORDER BY tblULTRASONICS.timeDate, tblULTRASONICS.timeHour;
