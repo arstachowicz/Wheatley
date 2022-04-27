@@ -1,0 +1,5 @@
+SELECT tblMAINTENANCE_DAILY_CR.timeDate, Min(IIf(IsNull([temperature]),0,-1)) AS Expr1, Min(IIf(IsNull([tankA]),0,-1)) AS Expr2, Min(IIf(IsNull([tankB]),0,-1)) AS Expr3
+FROM tblTECHNAME RIGHT JOIN tblMAINTENANCE_DAILY_CR ON tblTECHNAME.ID = tblMAINTENANCE_DAILY_CR.techName
+GROUP BY tblMAINTENANCE_DAILY_CR.timeDate
+HAVING (((tblMAINTENANCE_DAILY_CR.timeDate)=Date()))
+ORDER BY tblMAINTENANCE_DAILY_CR.timeDate DESC;
