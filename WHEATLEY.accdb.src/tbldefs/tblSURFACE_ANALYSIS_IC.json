@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tblSURFACE_ANALYSIS_IC",
+    "Connect": ";DATABASE=rel:WHEATLEY - backend\\WHEATLEY_be.accdb",
+    "SourceTableName": "tblSURFACE_ANALYSIS_IC",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ID]"
+  }
+}
