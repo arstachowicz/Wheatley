@@ -1,8 +1,0 @@
-﻿CREATE TABLE [tblATMOSPHERE] (
-  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
-  [timeDate] DATETIME ,
-  [timeHour] DATETIME ,
-  [relHum] DOUBLE ,
-  [temp] DOUBLE ,
-  [Notes] VARCHAR (255)
-)

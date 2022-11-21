@@ -1,2 +1,0 @@
-﻿SELECT tblPARTNUM.ID, tblPARTNUM.partNum
-FROM tblPARTNUM;

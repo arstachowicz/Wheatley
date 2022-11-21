@@ -1,4 +1,0 @@
-﻿CREATE TABLE [refWATER_DEN] (
-  [temp] DOUBLE  CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
-  [density] DOUBLE 
-)

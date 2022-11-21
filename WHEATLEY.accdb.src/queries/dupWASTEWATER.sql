@@ -1,4 +1,0 @@
-﻿SELECT tblWASTEWATER.timeDate, tblWASTEWATER.ID
-FROM tblWASTEWATER
-WHERE (((tblWASTEWATER.timeDate) In (SELECT [timeDate] FROM [tblWASTEWATER] As Tmp GROUP BY [timeDate],[lvlP] HAVING Count(*)>1 )))
-ORDER BY tblWASTEWATER.ID DESC;

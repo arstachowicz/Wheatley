@@ -1,7 +1,0 @@
-﻿CREATE TABLE [tblLABORATORIES] (
-  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
-  [nameLab] VARCHAR (150) CONSTRAINT [nameLab] UNIQUE,
-  [website] LONGTEXT ,
-  [testingAvailable] VARCHAR ,
-  [emailContact] LONGTEXT 
-)

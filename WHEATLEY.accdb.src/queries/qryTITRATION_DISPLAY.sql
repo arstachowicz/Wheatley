@@ -1,3 +1,0 @@
-﻿SELECT TOP 25 tblTITRATION.timeDate, tblLINES.Line, tblTITRATION.concNaOH, [concNaOH]*[volTitrant]/1000 AS moles, Round([moles]*1000/[volSample],4) AS molarity, IIf([massSol]<>0,Round([massSol]/[volSample],4),"") AS den, [moles]*[tblCHEMICALS].[molecularWeight] AS acidMass, [molarity]*[tblCHEMICALS].[molecularWeight]/([tblCHEMICALS].[concentration]*[tblCHEMICALS].[density]*1000) AS calcB, tblTITRATION.volTitrant
-FROM (tblTITRATION LEFT JOIN tblLINES ON tblTITRATION.line = tblLINES.ID) LEFT JOIN tblCHEMICALS ON tblTITRATION.chemical = tblCHEMICALS.ID
-ORDER BY tblTITRATION.timeDate DESC , tblLINES.Line;

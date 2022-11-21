@@ -1,3 +1,0 @@
-﻿SELECT tblPASSIVATE.ID, tblPARTNUM.partNum, refREV.rev
-FROM (tblPASSIVATE INNER JOIN tblPARTNUM ON tblPASSIVATE.partNum = tblPARTNUM.ID) INNER JOIN refREV ON tblPASSIVATE.Rev = refREV.ID
-WHERE (((tblPASSIVATE.partNum)=867) AND ((tblPASSIVATE.rev)=28) AND ((tblPASSIVATE.obsolete)=False) AND ((tblPASSIVATE.[R&D])=False));
