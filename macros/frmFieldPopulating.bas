@@ -1,4 +1,4 @@
-Attribute VB_Name = "frmFieldPopulating"
+﻿Attribute VB_Name = "frmFieldPopulating"
 Option Compare Database
 Option Explicit
 
@@ -35,6 +35,7 @@ On Error Resume Next
     End If
 End Function
 
+
 Function subCat(cmbUse As Control, cmbSub As Control, Optional cmbLoc As Control)
 'cmbUse: control that contains broad cateogry
 'cmbSub: control that contains subcategory (to be filtered by this function)
@@ -46,7 +47,7 @@ Dim subID As Long
     If (TypeName(cmbUse) = "ComboBox") And (TypeName(cmbSub) = "ComboBox") Then
         'check that something was selected in cmdUse
         If (IsNull(cmbUse) = False) Then
-            subID = cmbUse.Value
+            
             'dynamically change combobox based on value in cmbUse
             With cmbSub
                 If (IsNull(cmbUse) = False) Then
@@ -378,6 +379,7 @@ Function revPop(ByVal qdfName As String, ByVal sTbl As String, ctrlPrt As Contro
 'ctrlPrt: name of control that contains part information
 'ctrlRev: name of control that contains rev information (i.e. "cmbRev")
 
+
 Dim db As DAO.Database
 Dim rs As DAO.Recordset
 Dim qdf As DAO.QueryDef
@@ -449,3 +451,4 @@ End If
     db.Close
     
 End Function
+

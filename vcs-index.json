@@ -1,0 +1,1131 @@
+﻿{
+  "Info": {
+    "Class": "clsVCSIndex",
+    "Description": "Version Control System Index"
+  },
+  "Items": {
+    "MergeBuildDate": null,
+    "FullBuildDate": null,
+    "ExportDate": "12/1/2022 3:41:58 PM",
+    "FullExportDate": "12/1/2022 3:41:58 PM",
+    "OptionsHash": "235c8da",
+    "LastMergedCommit": "",
+    "Components": {
+      "Forms": {
+        "fmADJUSTTASKS.bas": {
+          "Hash": "c50941e",
+          "ExportDate": "12/1/2022 3:41:49 PM",
+          "SourceModified": "12/1/2022 3:41:49 PM",
+          "FilePropertiesHash": "a229e5b"
+        },
+        "fmATMOSPHERE.bas": {
+          "Hash": "e1212ff",
+          "ExportDate": "12/1/2022 3:41:55 PM",
+          "SourceModified": "12/1/2022 3:41:55 PM",
+          "FilePropertiesHash": "5b96ec8"
+        },
+        "fmBASIC_MAP.bas": {
+          "Hash": "3c4cf55",
+          "ExportDate": "12/1/2022 3:41:53 PM",
+          "SourceModified": "12/1/2022 3:41:53 PM",
+          "FilePropertiesHash": "0d10760"
+        },
+        "fmBASIC_ULTRASONICS.bas": {
+          "Hash": "0963412",
+          "ExportDate": "12/1/2022 3:41:51 PM",
+          "SourceModified": "12/1/2022 3:41:51 PM",
+          "FilePropertiesHash": "4b09f49"
+        },
+        "fmBATH_BROWSE.bas": {
+          "Hash": "0c78912",
+          "ExportDate": "12/1/2022 3:41:56 PM",
+          "SourceModified": "12/1/2022 3:41:56 PM",
+          "FilePropertiesHash": "527b9b5"
+        },
+        "fmBATH_EDIT.bas": {
+          "Hash": "dcebca3",
+          "ExportDate": "12/1/2022 3:41:52 PM",
+          "SourceModified": "12/1/2022 3:41:52 PM",
+          "FilePropertiesHash": "94f9f08"
+        },
+        "fmBATH_NEW.bas": {
+          "Hash": "bd8e06c",
+          "ExportDate": "12/1/2022 3:41:50 PM",
+          "SourceModified": "12/1/2022 3:41:50 PM",
+          "FilePropertiesHash": "5b43a64"
+        },
+        "fmCHEMICAL_MOVE.bas": {
+          "Hash": "5cd6db7",
+          "ExportDate": "12/1/2022 3:41:56 PM",
+          "SourceModified": "12/1/2022 3:41:56 PM",
+          "FilePropertiesHash": "775f323"
+        },
+        "fmDI_WATER.bas": {
+          "Hash": "b42dfb8",
+          "ExportDate": "12/1/2022 3:41:55 PM",
+          "SourceModified": "12/1/2022 3:41:55 PM",
+          "FilePropertiesHash": "fbad294"
+        },
+        "fmENGINEER.bas": {
+          "Hash": "ebeb812",
+          "ExportDate": "12/1/2022 3:41:53 PM",
+          "SourceModified": "12/1/2022 3:41:53 PM",
+          "FilePropertiesHash": "fbfa1f8"
+        },
+        "fmEP_EDIT.bas": {
+          "Hash": "36797d1",
+          "ExportDate": "12/1/2022 3:41:51 PM",
+          "SourceModified": "12/1/2022 3:41:51 PM",
+          "FilePropertiesHash": "67e8693"
+        },
+        "fmEP_NEW.bas": {
+          "Hash": "5011850",
+          "ExportDate": "12/1/2022 3:41:49 PM",
+          "SourceModified": "12/1/2022 3:41:49 PM",
+          "FilePropertiesHash": "e1c7bff"
+        },
+        "fmEPFIXTURES_SEARCH.bas": {
+          "Hash": "1bcba71",
+          "ExportDate": "12/1/2022 3:41:53 PM",
+          "SourceModified": "12/1/2022 3:41:53 PM",
+          "FilePropertiesHash": "6a6fd8a"
+        },
+        "fmEXPORTDATA.bas": {
+          "Hash": "c281dda",
+          "ExportDate": "12/1/2022 3:41:54 PM",
+          "SourceModified": "12/1/2022 3:41:54 PM",
+          "FilePropertiesHash": "33bb365"
+        },
+        "fmFUMEHOODS.bas": {
+          "Hash": "944fb0e",
+          "ExportDate": "12/1/2022 3:41:50 PM",
+          "SourceModified": "12/1/2022 3:41:50 PM",
+          "FilePropertiesHash": "bfe4a4b"
+        },
+        "fmHOME.bas": {
+          "Hash": "4ad1f0d",
+          "ExportDate": "12/1/2022 3:41:49 PM",
+          "SourceModified": "12/1/2022 3:41:49 PM",
+          "FilePropertiesHash": "79b6306"
+        },
+        "fmHOME_CL.bas": {
+          "Hash": "424c3d7",
+          "ExportDate": "12/1/2022 3:41:57 PM",
+          "SourceModified": "12/1/2022 3:41:57 PM",
+          "FilePropertiesHash": "c442682"
+        },
+        "fmHOME_CR.bas": {
+          "Hash": "23246c8",
+          "ExportDate": "12/1/2022 3:41:57 PM",
+          "SourceModified": "12/1/2022 3:41:57 PM",
+          "FilePropertiesHash": "9239a2d"
+        },
+        "fmLABORATORIES_EDIT.bas": {
+          "ExportDate": "12/1/2022 3:41:53 PM",
+          "SourceModified": "12/1/2022 3:41:53 PM",
+          "FilePropertiesHash": "ad3b43e"
+        },
+        "fmLABORATORIES_NEW.bas": {
+          "Hash": "e5aaab0",
+          "ExportDate": "12/1/2022 3:41:54 PM",
+          "SourceModified": "12/1/2022 3:41:54 PM",
+          "FilePropertiesHash": "240ffda"
+        },
+        "fmLEAKCHECK.bas": {
+          "Hash": "538b5ae",
+          "ExportDate": "12/1/2022 3:41:55 PM",
+          "SourceModified": "12/1/2022 3:41:55 PM",
+          "FilePropertiesHash": "b8b405e"
+        },
+        "fmLEAKCHECK_EDIT.bas": {
+          "Hash": "ecde544",
+          "ExportDate": "12/1/2022 3:41:51 PM",
+          "SourceModified": "12/1/2022 3:41:51 PM",
+          "FilePropertiesHash": "c069c11"
+        },
+        "fmLEAKCHECK_NEW.bas": {
+          "Hash": "3c63d32",
+          "ExportDate": "12/1/2022 3:41:50 PM",
+          "SourceModified": "12/1/2022 3:41:50 PM",
+          "FilePropertiesHash": "d4ef61e"
+        },
+        "fmLOCATIONS.bas": {
+          "ExportDate": "12/1/2022 3:41:51 PM",
+          "SourceModified": "12/1/2022 3:41:51 PM",
+          "FilePropertiesHash": "131fb5e"
+        },
+        "fmMAINTENANCE_CL.bas": {
+          "Hash": "9853792",
+          "ExportDate": "12/1/2022 3:41:55 PM",
+          "SourceModified": "12/1/2022 3:41:55 PM",
+          "FilePropertiesHash": "616fa41"
+        },
+        "fmMAINTENANCE_CR.bas": {
+          "Hash": "9853792",
+          "ExportDate": "12/1/2022 3:41:52 PM",
+          "SourceModified": "12/1/2022 3:41:52 PM",
+          "FilePropertiesHash": "ef68e5e"
+        },
+        "fmMAINTENANCE_DAILY_CL.bas": {
+          "Hash": "055093b",
+          "ExportDate": "12/1/2022 3:41:53 PM",
+          "SourceModified": "12/1/2022 3:41:53 PM",
+          "FilePropertiesHash": "f91cea9"
+        },
+        "fmMAINTENANCE_DAILY_CR.bas": {
+          "Hash": "922e7ba",
+          "ExportDate": "12/1/2022 3:41:53 PM",
+          "SourceModified": "12/1/2022 3:41:53 PM",
+          "FilePropertiesHash": "1c4d944"
+        },
+        "fmMAINTENANCE_METERS_CR.bas": {
+          "Hash": "03b6b0a",
+          "ExportDate": "12/1/2022 3:41:50 PM",
+          "SourceModified": "12/1/2022 3:41:50 PM",
+          "FilePropertiesHash": "a195475"
+        },
+        "fmMAINTENANCE_MONTHLY_CL.bas": {
+          "Hash": "9a5b78a",
+          "ExportDate": "12/1/2022 3:41:49 PM",
+          "SourceModified": "12/1/2022 3:41:49 PM",
+          "FilePropertiesHash": "60b8013"
+        },
+        "fmMAINTENANCE_MONTHLY_CR.bas": {
+          "Hash": "0f8081e",
+          "ExportDate": "12/1/2022 3:41:54 PM",
+          "SourceModified": "12/1/2022 3:41:54 PM",
+          "FilePropertiesHash": "e13a023"
+        },
+        "fmMAINTENANCE_QUARTERLY_CL.bas": {
+          "Hash": "9479ff2",
+          "ExportDate": "12/1/2022 3:41:56 PM",
+          "SourceModified": "12/1/2022 3:41:56 PM",
+          "FilePropertiesHash": "7a3f330"
+        },
+        "fmMAINTENANCE_WEEKLY_CL.bas": {
+          "Hash": "be42cb7",
+          "ExportDate": "12/1/2022 3:41:49 PM",
+          "SourceModified": "12/1/2022 3:41:49 PM",
+          "FilePropertiesHash": "b51a3bb"
+        },
+        "fmMAINTENANCE_WEEKLY_CR.bas": {
+          "Hash": "c98ca2e",
+          "ExportDate": "12/1/2022 3:41:55 PM",
+          "SourceModified": "12/1/2022 3:41:55 PM",
+          "FilePropertiesHash": "46ed05a"
+        },
+        "fmMETALS_AAS.bas": {
+          "Hash": "6a866cc",
+          "ExportDate": "12/1/2022 3:41:52 PM",
+          "SourceModified": "12/1/2022 3:41:52 PM",
+          "FilePropertiesHash": "30729cb"
+        },
+        "fmMETERS_CR.bas": {
+          "Hash": "34588be",
+          "ExportDate": "12/1/2022 3:41:51 PM",
+          "SourceModified": "12/1/2022 3:41:51 PM",
+          "FilePropertiesHash": "4546a77"
+        },
+        "fmPART_01_BROWSE.bas": {
+          "Hash": "abff56a",
+          "ExportDate": "4/27/2022 1:44:50 PM",
+          "SourceModified": "4/27/2022 1:44:50 PM",
+          "FilePropertiesHash": "82c5c7a"
+        },
+        "fmPART_01_EDIT.bas": {
+          "Hash": "dde0a10",
+          "ExportDate": "4/27/2022 1:44:46 PM",
+          "SourceModified": "4/27/2022 1:44:46 PM",
+          "FilePropertiesHash": "8946d22"
+        },
+        "fmPART_07_BROWSE.bas": {
+          "Hash": "abff56a",
+          "ExportDate": "4/27/2022 1:44:51 PM",
+          "SourceModified": "4/27/2022 1:44:51 PM",
+          "FilePropertiesHash": "a492200"
+        },
+        "fmPART_07_EDIT.bas": {
+          "Hash": "8d26c0a",
+          "ExportDate": "4/27/2022 1:44:46 PM",
+          "SourceModified": "4/27/2022 1:44:46 PM",
+          "FilePropertiesHash": "41ff9e6"
+        },
+        "fmPART_EDIT.bas": {
+          "Hash": "1209786",
+          "ExportDate": "12/1/2022 3:41:52 PM",
+          "SourceModified": "12/1/2022 3:41:52 PM",
+          "FilePropertiesHash": "cb93cdb"
+        },
+        "fmPART_INFO.bas": {
+          "Hash": "ec7ebc7",
+          "ExportDate": "12/1/2022 3:41:56 PM",
+          "SourceModified": "12/1/2022 3:41:56 PM",
+          "FilePropertiesHash": "89a4cee"
+        },
+        "fmPART_NEW.bas": {
+          "Hash": "24c6dd3",
+          "ExportDate": "12/1/2022 3:41:49 PM",
+          "SourceModified": "12/1/2022 3:41:49 PM",
+          "FilePropertiesHash": "44b1843"
+        },
+        "fmPARTNUM_BROWSE.bas": {
+          "Hash": "9b01e0c",
+          "ExportDate": "12/1/2022 3:41:56 PM",
+          "SourceModified": "12/1/2022 3:41:56 PM",
+          "FilePropertiesHash": "782eee0"
+        },
+        "fmPARTNUM_EDIT.bas": {
+          "Hash": "bc062fd",
+          "ExportDate": "12/1/2022 3:41:52 PM",
+          "SourceModified": "12/1/2022 3:41:52 PM",
+          "FilePropertiesHash": "b8cb65d"
+        },
+        "fmPARTNUM_NEW.bas": {
+          "Hash": "9dd56dc",
+          "ExportDate": "12/1/2022 3:41:54 PM",
+          "SourceModified": "12/1/2022 3:41:54 PM",
+          "FilePropertiesHash": "664ad4a"
+        },
+        "fmPASSIVATION_BROWSE.bas": {
+          "Hash": "abff56a",
+          "ExportDate": "12/1/2022 3:41:56 PM",
+          "SourceModified": "12/1/2022 3:41:56 PM",
+          "FilePropertiesHash": "57ae1d1"
+        },
+        "fmPASSIVATION_EDIT.bas": {
+          "Hash": "518941b",
+          "ExportDate": "12/1/2022 3:41:51 PM",
+          "SourceModified": "12/1/2022 3:41:51 PM",
+          "FilePropertiesHash": "d58ed88"
+        },
+        "fmPASSIVATION_NEW.bas": {
+          "Hash": "abbc5a1",
+          "ExportDate": "12/1/2022 3:41:49 PM",
+          "SourceModified": "12/1/2022 3:41:49 PM",
+          "FilePropertiesHash": "5c45153"
+        },
+        "fmPASSIVATION_SEARCH.bas": {
+          "Hash": "247c0dd",
+          "ExportDate": "12/1/2022 3:41:53 PM",
+          "SourceModified": "12/1/2022 3:41:53 PM",
+          "FilePropertiesHash": "77c3a01"
+        },
+        "fmPASSWORD.bas": {
+          "Hash": "8331a98",
+          "ExportDate": "12/1/2022 3:41:54 PM",
+          "SourceModified": "12/1/2022 3:41:54 PM",
+          "FilePropertiesHash": "2f9dbd8"
+        },
+        "fmPH.bas": {
+          "Hash": "958efff",
+          "ExportDate": "12/1/2022 3:41:53 PM",
+          "SourceModified": "12/1/2022 3:41:53 PM",
+          "FilePropertiesHash": "b1aa366"
+        },
+        "fmPRESS.bas": {
+          "Hash": "cd2c7be",
+          "ExportDate": "12/1/2022 3:41:50 PM",
+          "SourceModified": "12/1/2022 3:41:50 PM",
+          "FilePropertiesHash": "0d5d63b"
+        },
+        "fmPRESS_EDIT.bas": {
+          "Hash": "e3bed16",
+          "ExportDate": "12/1/2022 3:41:51 PM",
+          "SourceModified": "12/1/2022 3:41:51 PM",
+          "FilePropertiesHash": "70314d9"
+        },
+        "fmPRESS_NEW.bas": {
+          "Hash": "9574a33",
+          "ExportDate": "12/1/2022 3:41:56 PM",
+          "SourceModified": "12/1/2022 3:41:56 PM",
+          "FilePropertiesHash": "575942e"
+        },
+        "fmSHIFTS_EDIT.bas": {
+          "ExportDate": "12/1/2022 3:41:51 PM",
+          "SourceModified": "12/1/2022 3:41:51 PM",
+          "FilePropertiesHash": "74fed1b"
+        },
+        "fmSPECIFICGRAVITY.bas": {
+          "Hash": "249670a",
+          "ExportDate": "12/1/2022 3:41:56 PM",
+          "SourceModified": "12/1/2022 3:41:56 PM",
+          "FilePropertiesHash": "803e39a"
+        },
+        "fmSUPERVISOR_EDIT.bas": {
+          "Hash": "e3f3803",
+          "ExportDate": "12/1/2022 3:41:52 PM",
+          "SourceModified": "12/1/2022 3:41:52 PM",
+          "FilePropertiesHash": "d4e0711"
+        },
+        "fmSUPERVISOR_NEW.bas": {
+          "Hash": "cc53bb9",
+          "ExportDate": "12/1/2022 3:41:56 PM",
+          "SourceModified": "12/1/2022 3:41:56 PM",
+          "FilePropertiesHash": "cc43df5"
+        },
+        "fmSURFACE_ANALYSIS_AUGER.bas": {
+          "Hash": "dd40311",
+          "ExportDate": "12/1/2022 3:41:51 PM",
+          "SourceModified": "12/1/2022 3:41:51 PM",
+          "FilePropertiesHash": "14241b3"
+        },
+        "fmSURFACE_ANALYSIS_XPS.bas": {
+          "Hash": "b7ae8f1",
+          "ExportDate": "12/1/2022 3:41:56 PM",
+          "SourceModified": "12/1/2022 3:41:56 PM",
+          "FilePropertiesHash": "62dc610"
+        },
+        "fmSURFACE_QUALITY.bas": {
+          "Hash": "9b01e0c",
+          "ExportDate": "12/1/2022 3:41:55 PM",
+          "SourceModified": "12/1/2022 3:41:55 PM",
+          "FilePropertiesHash": "0f75f48"
+        },
+        "fmSURFACE_QUALITY_IC.bas": {
+          "Hash": "d313526",
+          "ExportDate": "12/1/2022 3:41:55 PM",
+          "SourceModified": "12/1/2022 3:41:55 PM",
+          "FilePropertiesHash": "b206d78"
+        },
+        "fmTASKS_CL.bas": {
+          "Hash": "abff56a",
+          "ExportDate": "12/1/2022 3:41:53 PM",
+          "SourceModified": "12/1/2022 3:41:53 PM",
+          "FilePropertiesHash": "96c513a"
+        },
+        "fmTECHNICIAN.bas": {
+          "Hash": "d7e5fc1",
+          "ExportDate": "12/1/2022 3:41:52 PM",
+          "SourceModified": "12/1/2022 3:41:52 PM",
+          "FilePropertiesHash": "e1cf31a"
+        },
+        "fmTECHNICIAN_EDIT.bas": {
+          "Hash": "676be46",
+          "ExportDate": "12/1/2022 3:41:53 PM",
+          "SourceModified": "12/1/2022 3:41:53 PM",
+          "FilePropertiesHash": "8ca31af"
+        },
+        "fmTECHNICIAN_NEW.bas": {
+          "Hash": "9003aca",
+          "ExportDate": "12/1/2022 3:41:54 PM",
+          "SourceModified": "12/1/2022 3:41:54 PM",
+          "FilePropertiesHash": "6447710"
+        },
+        "fmTITRATION.bas": {
+          "Hash": "20a4bd5",
+          "ExportDate": "12/1/2022 3:41:52 PM",
+          "SourceModified": "12/1/2022 3:41:52 PM",
+          "FilePropertiesHash": "472e4b2"
+        },
+        "fmULTRASONICS.bas": {
+          "Hash": "cdfb98b",
+          "ExportDate": "12/1/2022 3:41:52 PM",
+          "SourceModified": "12/1/2022 3:41:52 PM",
+          "FilePropertiesHash": "0f18c81"
+        },
+        "fmWASTEMONITOR.bas": {
+          "Hash": "8fed821",
+          "ExportDate": "12/1/2022 3:41:50 PM",
+          "SourceModified": "12/1/2022 3:41:50 PM",
+          "FilePropertiesHash": "55d04bc"
+        },
+        "fmWASTEWATER.bas": {
+          "Hash": "dca97dd",
+          "ExportDate": "12/1/2022 3:41:49 PM",
+          "SourceModified": "12/1/2022 3:41:49 PM",
+          "FilePropertiesHash": "8cc9c80"
+        },
+        "fmWHERE_USED.bas": {
+          "Hash": "b49d318",
+          "ExportDate": "12/1/2022 3:41:55 PM",
+          "SourceModified": "12/1/2022 3:41:55 PM",
+          "FilePropertiesHash": "4d8c603"
+        }
+      },
+      "Modules": {
+        "convertValues.bas": {
+          "Hash": "b5d921f",
+          "ExportDate": "12/1/2022 3:41:57 PM",
+          "SourceModified": "12/1/2022 3:41:57 PM",
+          "FilePropertiesHash": "2a3f95a"
+        },
+        "dueDates.bas": {
+          "Hash": "6a0ab36",
+          "ExportDate": "12/1/2022 3:41:57 PM",
+          "SourceModified": "12/1/2022 3:41:57 PM",
+          "FilePropertiesHash": "15f33bf"
+        },
+        "emailBuilder.bas": {
+          "Hash": "594caac",
+          "ExportDate": "12/1/2022 3:41:57 PM",
+          "SourceModified": "12/1/2022 3:41:57 PM",
+          "FilePropertiesHash": "782155c"
+        },
+        "errorHandling.bas": {
+          "Hash": "55594df",
+          "ExportDate": "12/1/2022 3:41:57 PM",
+          "SourceModified": "12/1/2022 3:41:57 PM",
+          "FilePropertiesHash": "ac9959e"
+        },
+        "frmFieldPopulating.bas": {
+          "Hash": "bbb3e2e",
+          "ExportDate": "12/1/2022 3:41:57 PM",
+          "SourceModified": "12/1/2022 3:41:57 PM",
+          "FilePropertiesHash": "59a5a0b"
+        },
+        "maintenanceCheck.bas": {
+          "Hash": "32124f0",
+          "ExportDate": "12/1/2022 3:41:57 PM",
+          "SourceModified": "12/1/2022 3:41:57 PM",
+          "FilePropertiesHash": "9d6542d"
+        },
+        "modMousePointers.bas": {
+          "Hash": "93d7f9b",
+          "ExportDate": "12/1/2022 3:41:57 PM",
+          "SourceModified": "12/1/2022 3:41:57 PM",
+          "FilePropertiesHash": "a429f17"
+        },
+        "openPDFfile.bas": {
+          "Hash": "37d4481",
+          "ExportDate": "12/1/2022 3:41:57 PM",
+          "SourceModified": "12/1/2022 3:41:57 PM",
+          "FilePropertiesHash": "79f68e4"
+        },
+        "resolutionAdjustment.bas": {
+          "Hash": "e4283b3",
+          "ExportDate": "12/1/2022 3:41:57 PM",
+          "SourceModified": "12/1/2022 3:41:57 PM",
+          "FilePropertiesHash": "40b24ba"
+        }
+      },
+      "Project": {
+        "project.json": {
+          "Hash": "19c3478",
+          "ExportDate": "12/1/2022 3:41:01 PM",
+          "SourceModified": "4/27/2022 12:40:58 PM",
+          "FilePropertiesHash": "9716615"
+        }
+      },
+      "Queries": {
+        "dupBATH.bas": {
+          "ExportDate": "12/1/2022 3:41:11 PM",
+          "SourceModified": "12/1/2022 3:41:11 PM",
+          "FilePropertiesHash": "69052d6"
+        },
+        "dupEP.bas": {
+          "ExportDate": "12/1/2022 3:41:11 PM",
+          "SourceModified": "12/1/2022 3:41:11 PM",
+          "FilePropertiesHash": "ff6a2a1"
+        },
+        "dupLEAK_CHECK.bas": {
+          "ExportDate": "12/1/2022 3:41:12 PM",
+          "SourceModified": "12/1/2022 3:41:12 PM",
+          "FilePropertiesHash": "1288841"
+        },
+        "dupPART_01.bas": {
+          "ExportDate": "12/1/2022 3:41:12 PM",
+          "SourceModified": "12/1/2022 3:41:12 PM",
+          "FilePropertiesHash": "5336107"
+        },
+        "dupPART_07.bas": {
+          "ExportDate": "12/1/2022 3:41:13 PM",
+          "SourceModified": "12/1/2022 3:41:13 PM",
+          "FilePropertiesHash": "cfdbd16"
+        },
+        "dupPART_156.bas": {
+          "ExportDate": "12/1/2022 3:41:13 PM",
+          "SourceModified": "12/1/2022 3:41:13 PM",
+          "FilePropertiesHash": "91cbc0a"
+        },
+        "dupPARTNUM.bas": {
+          "ExportDate": "12/1/2022 3:41:13 PM",
+          "SourceModified": "12/1/2022 3:41:13 PM",
+          "FilePropertiesHash": "a93dc90"
+        },
+        "dupPASSIVATION.bas": {
+          "ExportDate": "12/1/2022 3:41:14 PM",
+          "SourceModified": "12/1/2022 3:41:14 PM",
+          "FilePropertiesHash": "7238053"
+        },
+        "dupPRESS.bas": {
+          "ExportDate": "12/1/2022 3:41:14 PM",
+          "SourceModified": "12/1/2022 3:41:14 PM",
+          "FilePropertiesHash": "e52631c"
+        },
+        "dupSUPERVISORS.bas": {
+          "ExportDate": "12/1/2022 3:41:15 PM",
+          "SourceModified": "12/1/2022 3:41:15 PM",
+          "FilePropertiesHash": "32976a9"
+        },
+        "dupTECHNAME.bas": {
+          "ExportDate": "12/1/2022 3:41:15 PM",
+          "SourceModified": "12/1/2022 3:41:15 PM",
+          "FilePropertiesHash": "80e0b74"
+        },
+        "dupWASTEWATER.bas": {
+          "ExportDate": "12/1/2022 3:41:15 PM",
+          "SourceModified": "12/1/2022 3:41:15 PM",
+          "FilePropertiesHash": "6812cda"
+        },
+        "qryCHEMICALS_MOVE_DISPLAY.bas": {
+          "ExportDate": "12/1/2022 3:41:16 PM",
+          "SourceModified": "12/1/2022 3:41:16 PM",
+          "FilePropertiesHash": "7d9db65"
+        },
+        "qryDI_WATER.bas": {
+          "ExportDate": "12/1/2022 3:41:16 PM",
+          "SourceModified": "12/1/2022 3:41:16 PM",
+          "FilePropertiesHash": "8240fa1"
+        },
+        "qryEMPLOYEE_CL.bas": {
+          "ExportDate": "12/1/2022 3:41:17 PM",
+          "SourceModified": "12/1/2022 3:41:17 PM",
+          "FilePropertiesHash": "c0ce370"
+        },
+        "qryEMPLOYEE_CR.bas": {
+          "ExportDate": "12/1/2022 3:41:17 PM",
+          "SourceModified": "12/1/2022 3:41:17 PM",
+          "FilePropertiesHash": "c0ce370"
+        },
+        "qryEP_BATHE.bas": {
+          "ExportDate": "12/1/2022 3:41:18 PM",
+          "SourceModified": "12/1/2022 3:41:18 PM",
+          "FilePropertiesHash": "9e3396d"
+        },
+        "qryEP_CSEAL.bas": {
+          "ExportDate": "12/1/2022 3:41:18 PM",
+          "SourceModified": "12/1/2022 3:41:18 PM",
+          "FilePropertiesHash": "efcc99b"
+        },
+        "qryEP_ELECTRODES.bas": {
+          "ExportDate": "12/1/2022 3:41:19 PM",
+          "SourceModified": "12/1/2022 3:41:19 PM",
+          "FilePropertiesHash": "0333b91"
+        },
+        "qryEP_FIXTURES.bas": {
+          "ExportDate": "12/1/2022 3:41:20 PM",
+          "SourceModified": "12/1/2022 3:41:19 PM",
+          "FilePropertiesHash": "c20d275"
+        },
+        "qryEP_PARTID.bas": {
+          "ExportDate": "12/1/2022 3:41:20 PM",
+          "SourceModified": "12/1/2022 3:41:20 PM",
+          "FilePropertiesHash": "055250a"
+        },
+        "qryFUMEHOODS.bas": {
+          "ExportDate": "12/1/2022 3:41:21 PM",
+          "SourceModified": "12/1/2022 3:41:21 PM",
+          "FilePropertiesHash": "433a116"
+        },
+        "qryFUMEHOODS_DISPLAY.bas": {
+          "ExportDate": "12/1/2022 3:41:21 PM",
+          "SourceModified": "12/1/2022 3:41:21 PM",
+          "FilePropertiesHash": "b6e7801"
+        },
+        "qryLATETASKS.bas": {
+          "ExportDate": "12/1/2022 3:41:22 PM",
+          "SourceModified": "12/1/2022 3:41:22 PM",
+          "FilePropertiesHash": "e16ee25"
+        },
+        "qryLATETASKS_COMBINED.bas": {
+          "ExportDate": "12/1/2022 3:41:22 PM",
+          "SourceModified": "12/1/2022 3:41:22 PM",
+          "FilePropertiesHash": "fb71bcf"
+        },
+        "qryLEAK_CHECK.bas": {
+          "ExportDate": "12/1/2022 3:41:23 PM",
+          "SourceModified": "12/1/2022 3:41:23 PM",
+          "FilePropertiesHash": "2466d24"
+        },
+        "qryLINKED.bas": {
+          "ExportDate": "12/1/2022 3:41:24 PM",
+          "SourceModified": "12/1/2022 3:41:24 PM",
+          "FilePropertiesHash": "3548b27"
+        },
+        "qryMAINTENANCE_DAILY_CL.bas": {
+          "ExportDate": "12/1/2022 3:41:24 PM",
+          "SourceModified": "12/1/2022 3:41:24 PM",
+          "FilePropertiesHash": "815ec6e"
+        },
+        "qryMAINTENANCE_DAILY_CL_COMPLETION.bas": {
+          "ExportDate": "12/1/2022 3:41:25 PM",
+          "SourceModified": "12/1/2022 3:41:25 PM",
+          "FilePropertiesHash": "79e71a3"
+        },
+        "qryMAINTENANCE_DAILY_CL_DISPLAY.bas": {
+          "ExportDate": "12/1/2022 3:41:25 PM",
+          "SourceModified": "12/1/2022 3:41:25 PM",
+          "FilePropertiesHash": "e24f94f"
+        },
+        "qryMAINTENANCE_DAILY_CR.bas": {
+          "ExportDate": "12/1/2022 3:41:26 PM",
+          "SourceModified": "12/1/2022 3:41:26 PM",
+          "FilePropertiesHash": "4948ed6"
+        },
+        "qryMAINTENANCE_DAILY_CR_COMPLETION.bas": {
+          "ExportDate": "12/1/2022 3:41:26 PM",
+          "SourceModified": "12/1/2022 3:41:26 PM",
+          "FilePropertiesHash": "656240f"
+        },
+        "qryMAINTENANCE_DAILY_CR_DISPLAY.bas": {
+          "ExportDate": "12/1/2022 3:41:27 PM",
+          "SourceModified": "12/1/2022 3:41:27 PM",
+          "FilePropertiesHash": "c3540a1"
+        },
+        "qryMAINTENANCE_METERS_COMPLETION.bas": {
+          "ExportDate": "12/1/2022 3:41:27 PM",
+          "SourceModified": "12/1/2022 3:41:27 PM",
+          "FilePropertiesHash": "95087b7"
+        },
+        "qryMAINTENANCE_METERS_CR.bas": {
+          "ExportDate": "12/1/2022 3:41:28 PM",
+          "SourceModified": "12/1/2022 3:41:28 PM",
+          "FilePropertiesHash": "10fb883"
+        },
+        "qryMAINTENANCE_MONTHLY_CL.bas": {
+          "ExportDate": "12/1/2022 3:41:28 PM",
+          "SourceModified": "12/1/2022 3:41:28 PM",
+          "FilePropertiesHash": "a59f8fd"
+        },
+        "qryMAINTENANCE_MONTHLY_CR.bas": {
+          "ExportDate": "12/1/2022 3:41:28 PM",
+          "SourceModified": "12/1/2022 3:41:28 PM",
+          "FilePropertiesHash": "11bf455"
+        },
+        "qryMAINTENANCE_MONTHLY_CR_COMPLETION.bas": {
+          "ExportDate": "12/1/2022 3:41:29 PM",
+          "SourceModified": "12/1/2022 3:41:29 PM",
+          "FilePropertiesHash": "b7d9ced"
+        },
+        "qryMAINTENANCE_WEEKLY_CL.bas": {
+          "ExportDate": "12/1/2022 3:41:30 PM",
+          "SourceModified": "12/1/2022 3:41:30 PM",
+          "FilePropertiesHash": "3407e0c"
+        },
+        "qryMAINTENANCE_WEEKLY_CL_COMPLETION.bas": {
+          "ExportDate": "12/1/2022 3:41:30 PM",
+          "SourceModified": "12/1/2022 3:41:30 PM",
+          "FilePropertiesHash": "77463ac"
+        },
+        "qryMAINTENANCE_WEEKLY_CR.bas": {
+          "ExportDate": "12/1/2022 3:41:31 PM",
+          "SourceModified": "12/1/2022 3:41:31 PM",
+          "FilePropertiesHash": "195c48b"
+        },
+        "qryMAINTENANCE_WEEKLY_CR_COMPLETION.bas": {
+          "ExportDate": "12/1/2022 3:41:31 PM",
+          "SourceModified": "12/1/2022 3:41:31 PM",
+          "FilePropertiesHash": "3d56e6e"
+        },
+        "qryMETALCONTENT.bas": {
+          "ExportDate": "12/1/2022 3:41:32 PM",
+          "SourceModified": "12/1/2022 3:41:32 PM",
+          "FilePropertiesHash": "4511d5b"
+        },
+        "qryMETALS_AAS_DISPLAY.bas": {
+          "ExportDate": "12/1/2022 3:41:33 PM",
+          "SourceModified": "12/1/2022 3:41:33 PM",
+          "FilePropertiesHash": "2ab5979"
+        },
+        "qryMETERS_CR.bas": {
+          "ExportDate": "12/1/2022 3:41:33 PM",
+          "SourceModified": "12/1/2022 3:41:33 PM",
+          "FilePropertiesHash": "e56efa5"
+        },
+        "qryPART_01.bas": {
+          "ExportDate": "12/1/2022 3:41:34 PM",
+          "SourceModified": "12/1/2022 3:41:34 PM",
+          "FilePropertiesHash": "b9a5fb7"
+        },
+        "qryPART_01_ELECTRODE.bas": {
+          "ExportDate": "12/1/2022 3:41:35 PM",
+          "SourceModified": "12/1/2022 3:41:35 PM",
+          "FilePropertiesHash": "2698872"
+        },
+        "qryPART_07.bas": {
+          "ExportDate": "12/1/2022 3:41:35 PM",
+          "SourceModified": "12/1/2022 3:41:35 PM",
+          "FilePropertiesHash": "3955e8e"
+        },
+        "qryPART_LOCATION.bas": {
+          "ExportDate": "12/1/2022 3:41:36 PM",
+          "SourceModified": "12/1/2022 3:41:36 PM",
+          "FilePropertiesHash": "37d1ef2"
+        },
+        "qryPARTNUM.bas": {
+          "ExportDate": "12/1/2022 3:41:36 PM",
+          "SourceModified": "12/1/2022 3:41:36 PM",
+          "FilePropertiesHash": "aa555ba"
+        },
+        "qryPARTNUM_ALL.bas": {
+          "ExportDate": "12/1/2022 3:41:37 PM",
+          "SourceModified": "12/1/2022 3:41:37 PM",
+          "FilePropertiesHash": "fbdda8d"
+        },
+        "qryPARTNUM_LINK.bas": {
+          "ExportDate": "12/1/2022 3:41:37 PM",
+          "SourceModified": "12/1/2022 3:41:37 PM",
+          "FilePropertiesHash": "12d60be"
+        },
+        "qryPARTS_BATHE.bas": {
+          "ExportDate": "12/1/2022 3:41:38 PM",
+          "SourceModified": "12/1/2022 3:41:38 PM",
+          "FilePropertiesHash": "9b88e57"
+        },
+        "qryPASSIVATION.bas": {
+          "ExportDate": "12/1/2022 3:41:38 PM",
+          "SourceModified": "12/1/2022 3:41:38 PM",
+          "FilePropertiesHash": "def9420"
+        },
+        "qryPH_WASTE.bas": {
+          "ExportDate": "12/1/2022 3:41:39 PM",
+          "SourceModified": "12/1/2022 3:41:39 PM",
+          "FilePropertiesHash": "98be596"
+        },
+        "qryPH_WASTE_DISPLAY.bas": {
+          "ExportDate": "12/1/2022 3:41:39 PM",
+          "SourceModified": "12/1/2022 3:41:39 PM",
+          "FilePropertiesHash": "f5c8e83"
+        },
+        "qryPRESS.bas": {
+          "ExportDate": "12/1/2022 3:41:40 PM",
+          "SourceModified": "12/1/2022 3:41:40 PM",
+          "FilePropertiesHash": "942831e"
+        },
+        "qrySPECIFICGRAVITY.bas": {
+          "ExportDate": "12/1/2022 3:41:41 PM",
+          "SourceModified": "12/1/2022 3:41:41 PM",
+          "FilePropertiesHash": "3c1ea32"
+        },
+        "qrySPECIFICGRAVITY_DISPLAY.bas": {
+          "ExportDate": "12/1/2022 3:41:41 PM",
+          "SourceModified": "12/1/2022 3:41:41 PM",
+          "FilePropertiesHash": "51d00b7"
+        },
+        "qrySUPERVISOR_TASK.bas": {
+          "ExportDate": "12/1/2022 3:41:42 PM",
+          "SourceModified": "12/1/2022 3:41:42 PM",
+          "FilePropertiesHash": "5738095"
+        },
+        "qrySURFACE_ANALYSIS_AUGER.bas": {
+          "ExportDate": "12/1/2022 3:41:42 PM",
+          "SourceModified": "12/1/2022 3:41:42 PM",
+          "FilePropertiesHash": "ba0f698"
+        },
+        "qrySURFACE_ANALYSIS_IC.bas": {
+          "ExportDate": "12/1/2022 3:41:43 PM",
+          "SourceModified": "12/1/2022 3:41:43 PM",
+          "FilePropertiesHash": "96a83f7"
+        },
+        "qrySURFACE_ANALYSIS_XPS.bas": {
+          "ExportDate": "12/1/2022 3:41:43 PM",
+          "SourceModified": "12/1/2022 3:41:43 PM",
+          "FilePropertiesHash": "eaec7ce"
+        },
+        "qryTITRATION.bas": {
+          "ExportDate": "12/1/2022 3:41:43 PM",
+          "SourceModified": "12/1/2022 3:41:43 PM",
+          "FilePropertiesHash": "2968080"
+        },
+        "qryTITRATION_DISPLAY.bas": {
+          "ExportDate": "12/1/2022 3:41:44 PM",
+          "SourceModified": "12/1/2022 3:41:44 PM",
+          "FilePropertiesHash": "a2f0711"
+        },
+        "qryULTRASONIC.bas": {
+          "ExportDate": "12/1/2022 3:41:44 PM",
+          "SourceModified": "12/1/2022 3:41:44 PM",
+          "FilePropertiesHash": "78995b7"
+        },
+        "qryULTRASONIC_DISPLAY.bas": {
+          "ExportDate": "12/1/2022 3:41:45 PM",
+          "SourceModified": "12/1/2022 3:41:45 PM",
+          "FilePropertiesHash": "ca7bf9c"
+        },
+        "qryWASTEWATER.bas": {
+          "ExportDate": "12/1/2022 3:41:45 PM",
+          "SourceModified": "12/1/2022 3:41:45 PM",
+          "FilePropertiesHash": "af0b11b"
+        },
+        "qryWHERE_USED.bas": {
+          "ExportDate": "12/1/2022 3:41:48 PM",
+          "SourceModified": "12/1/2022 3:41:48 PM",
+          "FilePropertiesHash": "d0a848c"
+        }
+      },
+      "Tables": {
+        "refREV.json": {
+          "ExportDate": "12/1/2022 3:41:02 PM",
+          "SourceModified": "4/27/2022 12:40:59 PM",
+          "FilePropertiesHash": "2967077"
+        },
+        "refWATER_DEN.json": {
+          "ExportDate": "12/1/2022 3:41:02 PM",
+          "SourceModified": "4/27/2022 12:40:59 PM",
+          "FilePropertiesHash": "12fb6cd"
+        },
+        "tblATMOSPHERE.json": {
+          "ExportDate": "12/1/2022 3:41:02 PM",
+          "SourceModified": "4/27/2022 12:40:59 PM",
+          "FilePropertiesHash": "12fb6cd"
+        },
+        "tblBUILDINGS.json": {
+          "ExportDate": "12/1/2022 3:41:02 PM",
+          "SourceModified": "4/27/2022 12:40:59 PM",
+          "FilePropertiesHash": "4e5c047"
+        },
+        "tblCHEMICALS.json": {
+          "ExportDate": "12/1/2022 3:41:02 PM",
+          "SourceModified": "4/27/2022 12:40:59 PM",
+          "FilePropertiesHash": "4e5c047"
+        },
+        "tbLCHEMICALS_MOVE.json": {
+          "ExportDate": "12/1/2022 3:41:03 PM",
+          "SourceModified": "4/27/2022 12:41:00 PM",
+          "FilePropertiesHash": "bcad09b"
+        },
+        "tblDI_WATER.json": {
+          "ExportDate": "12/1/2022 3:41:03 PM",
+          "SourceModified": "4/27/2022 12:41:00 PM",
+          "FilePropertiesHash": "882eb91"
+        },
+        "tblEP.json": {
+          "ExportDate": "12/1/2022 3:41:03 PM",
+          "SourceModified": "4/27/2022 12:41:00 PM",
+          "FilePropertiesHash": "be5cef0"
+        },
+        "tblEP_BATHE.json": {
+          "ExportDate": "12/1/2022 3:41:03 PM",
+          "SourceModified": "4/27/2022 12:41:00 PM",
+          "FilePropertiesHash": "882eb91"
+        },
+        "tblEP_CSEAL.json": {
+          "ExportDate": "12/1/2022 3:41:03 PM",
+          "SourceModified": "4/27/2022 12:41:00 PM",
+          "FilePropertiesHash": "882eb91"
+        },
+        "tblEP_ELECTRODE.json": {
+          "ExportDate": "12/1/2022 3:41:04 PM",
+          "SourceModified": "4/27/2022 12:41:00 PM",
+          "FilePropertiesHash": "28db799"
+        },
+        "tblEP_MISC.json": {
+          "ExportDate": "12/1/2022 3:41:04 PM",
+          "SourceModified": "4/27/2022 12:41:01 PM",
+          "FilePropertiesHash": "4350b4f"
+        },
+        "tblFUMEHOODS.json": {
+          "ExportDate": "12/1/2022 3:41:04 PM",
+          "SourceModified": "4/27/2022 12:41:01 PM",
+          "FilePropertiesHash": "8fcfa8b"
+        },
+        "tblJOIN_BUILDING_ROOM.json": {
+          "ExportDate": "12/1/2022 3:41:04 PM",
+          "SourceModified": "4/27/2022 12:41:01 PM",
+          "FilePropertiesHash": "cbb934e"
+        },
+        "tblLABORATORIES.json": {
+          "ExportDate": "12/1/2022 3:41:04 PM",
+          "SourceModified": "4/27/2022 12:41:01 PM",
+          "FilePropertiesHash": "183df00"
+        },
+        "tblLEAK_CHECK.json": {
+          "ExportDate": "12/1/2022 3:41:05 PM",
+          "SourceModified": "4/27/2022 12:41:01 PM",
+          "FilePropertiesHash": "183df00"
+        },
+        "tblLINES.json": {
+          "ExportDate": "12/1/2022 3:41:05 PM",
+          "SourceModified": "4/27/2022 12:41:01 PM",
+          "FilePropertiesHash": "ceeb2f9"
+        },
+        "tblLOCATIONS.json": {
+          "ExportDate": "12/1/2022 3:41:05 PM",
+          "SourceModified": "4/27/2022 12:41:01 PM",
+          "FilePropertiesHash": "d82b2f6"
+        },
+        "tblMAINTENANCE_DAILY_CL.json": {
+          "ExportDate": "12/1/2022 3:41:05 PM",
+          "SourceModified": "4/27/2022 12:41:02 PM",
+          "FilePropertiesHash": "e1d0e0b"
+        },
+        "tblMAINTENANCE_DAILY_CR.json": {
+          "ExportDate": "12/1/2022 3:41:05 PM",
+          "SourceModified": "4/27/2022 12:41:02 PM",
+          "FilePropertiesHash": "e1d0e0b"
+        },
+        "tblMAINTENANCE_MONTHLY_CL.json": {
+          "ExportDate": "12/1/2022 3:41:05 PM",
+          "SourceModified": "4/27/2022 12:41:02 PM",
+          "FilePropertiesHash": "8917dc8"
+        },
+        "tblMAINTENANCE_MONTHLY_CR.json": {
+          "ExportDate": "12/1/2022 3:41:06 PM",
+          "SourceModified": "4/27/2022 12:41:02 PM",
+          "FilePropertiesHash": "8917dc8"
+        },
+        "tblMAINTENANCE_QUARTERLY_CL.json": {
+          "ExportDate": "12/1/2022 3:41:06 PM",
+          "SourceModified": "4/27/2022 12:41:02 PM",
+          "FilePropertiesHash": "a18a669"
+        },
+        "tblMAINTENANCE_WEEKLY_CL.json": {
+          "ExportDate": "12/1/2022 3:41:06 PM",
+          "SourceModified": "4/27/2022 12:41:02 PM",
+          "FilePropertiesHash": "4afbe36"
+        },
+        "tblMAINTENANCE_WEEKLY_CR.json": {
+          "ExportDate": "12/1/2022 3:41:06 PM",
+          "SourceModified": "4/27/2022 12:41:02 PM",
+          "FilePropertiesHash": "4afbe36"
+        },
+        "tblMETALS_AAS.json": {
+          "ExportDate": "12/1/2022 3:41:06 PM",
+          "SourceModified": "4/27/2022 12:41:03 PM",
+          "FilePropertiesHash": "266b7bc"
+        },
+        "tblMETERS_CR.json": {
+          "ExportDate": "12/1/2022 3:41:06 PM",
+          "SourceModified": "4/27/2022 12:41:03 PM",
+          "FilePropertiesHash": "62840ca"
+        },
+        "tblPART_01.json": {
+          "ExportDate": "12/1/2022 3:41:07 PM",
+          "SourceModified": "4/27/2022 12:41:03 PM",
+          "FilePropertiesHash": "62840ca"
+        },
+        "tblPART_01_CSEAL.json": {
+          "ExportDate": "12/1/2022 3:41:07 PM",
+          "SourceModified": "4/27/2022 12:41:03 PM",
+          "FilePropertiesHash": "5b8c8a2"
+        },
+        "tblPART_01_ELECTRODE.json": {
+          "ExportDate": "12/1/2022 3:41:07 PM",
+          "SourceModified": "4/27/2022 12:41:03 PM",
+          "FilePropertiesHash": "a92bf90"
+        },
+        "tblPART_07.json": {
+          "ExportDate": "12/1/2022 3:41:07 PM",
+          "SourceModified": "4/27/2022 12:41:03 PM",
+          "FilePropertiesHash": "62840ca"
+        },
+        "tblPART_156.json": {
+          "ExportDate": "12/1/2022 3:41:07 PM",
+          "SourceModified": "4/27/2022 12:41:03 PM",
+          "FilePropertiesHash": "266b7bc"
+        },
+        "tblPART_STORAGE.json": {
+          "ExportDate": "12/1/2022 3:41:07 PM",
+          "SourceModified": "4/27/2022 12:41:04 PM",
+          "FilePropertiesHash": "7ae6644"
+        },
+        "tblPART_TYPES.json": {
+          "ExportDate": "12/1/2022 3:41:08 PM",
+          "SourceModified": "4/27/2022 12:41:04 PM",
+          "FilePropertiesHash": "99750d4"
+        },
+        "tblPARTNUM.json": {
+          "ExportDate": "12/1/2022 3:41:08 PM",
+          "SourceModified": "4/27/2022 12:41:04 PM",
+          "FilePropertiesHash": "a6cd603"
+        },
+        "tblPASSIVATE.json": {
+          "ExportDate": "12/1/2022 3:41:08 PM",
+          "SourceModified": "4/27/2022 12:41:04 PM",
+          "FilePropertiesHash": "4f2f32f"
+        },
+        "tblPH_WASTE.json": {
+          "ExportDate": "12/1/2022 3:41:08 PM",
+          "SourceModified": "4/27/2022 12:41:04 PM",
+          "FilePropertiesHash": "5041117"
+        },
+        "tblPRESS.json": {
+          "ExportDate": "12/1/2022 3:41:08 PM",
+          "SourceModified": "4/27/2022 12:41:04 PM",
+          "FilePropertiesHash": "88d795c"
+        },
+        "tblROOMTYPES.json": {
+          "ExportDate": "12/1/2022 3:41:08 PM",
+          "SourceModified": "4/27/2022 12:41:05 PM",
+          "FilePropertiesHash": "41c62ec"
+        },
+        "tblSHIFTS.json": {
+          "ExportDate": "12/1/2022 3:41:09 PM",
+          "SourceModified": "4/27/2022 12:41:05 PM",
+          "FilePropertiesHash": "e56d8c5"
+        },
+        "tblSPECIFICGRAVITY.json": {
+          "ExportDate": "12/1/2022 3:41:09 PM",
+          "SourceModified": "4/27/2022 12:41:05 PM",
+          "FilePropertiesHash": "a8274f1"
+        },
+        "tblSUBCATEGORY.json": {
+          "ExportDate": "12/1/2022 3:41:09 PM",
+          "SourceModified": "4/27/2022 12:41:05 PM",
+          "FilePropertiesHash": "456c220"
+        },
+        "tblSUPERVISORS.json": {
+          "ExportDate": "12/1/2022 3:41:09 PM",
+          "SourceModified": "4/27/2022 12:41:05 PM",
+          "FilePropertiesHash": "456c220"
+        },
+        "tblSURFACE_ANALYSIS_AUGER.json": {
+          "ExportDate": "12/1/2022 3:41:09 PM",
+          "SourceModified": "4/27/2022 12:41:05 PM",
+          "FilePropertiesHash": "c8b2d3c"
+        },
+        "tblSURFACE_ANALYSIS_IC.json": {
+          "ExportDate": "12/1/2022 3:41:09 PM",
+          "SourceModified": "4/27/2022 12:41:05 PM",
+          "FilePropertiesHash": "25d476c"
+        },
+        "tblSURFACE_ANALYSIS_XPS.json": {
+          "ExportDate": "12/1/2022 3:41:10 PM",
+          "SourceModified": "4/27/2022 12:41:06 PM",
+          "FilePropertiesHash": "2ca6d8a"
+        },
+        "tblTASKLIST.json": {
+          "ExportDate": "12/1/2022 3:41:10 PM",
+          "SourceModified": "4/27/2022 12:41:06 PM",
+          "FilePropertiesHash": "9ed1e40"
+        },
+        "tblTECHNAME.json": {
+          "ExportDate": "12/1/2022 3:41:10 PM",
+          "SourceModified": "4/27/2022 12:41:06 PM",
+          "FilePropertiesHash": "9ed1e40"
+        },
+        "tblTITRATION.json": {
+          "ExportDate": "12/1/2022 3:41:10 PM",
+          "SourceModified": "4/27/2022 12:41:06 PM",
+          "FilePropertiesHash": "1ab42e6"
+        },
+        "tblULTRASONICS.json": {
+          "ExportDate": "12/1/2022 3:41:10 PM",
+          "SourceModified": "4/27/2022 12:41:06 PM",
+          "FilePropertiesHash": "28be8fe"
+        },
+        "tblWASTEWATER.json": {
+          "ExportDate": "12/1/2022 3:41:10 PM",
+          "SourceModified": "4/27/2022 12:41:06 PM",
+          "FilePropertiesHash": "d6f4bc3"
+        }
+      },
+      "VB Project": {
+        "vbe-project.json": {
+          "Hash": "887ab20",
+          "ExportDate": "12/1/2022 3:41:01 PM",
+          "SourceModified": "12/1/2022 3:41:01 PM",
+          "FilePropertiesHash": "68a91ed"
+        }
+      },
+      "VBE References": {
+        "vbe-references.json": {
+          "Hash": "94655dd",
+          "ExportDate": "12/1/2022 3:41:01 PM",
+          "SourceModified": "4/27/2022 12:40:58 PM",
+          "FilePropertiesHash": "ca72300"
+        }
+      }
+    }
+  }
+}

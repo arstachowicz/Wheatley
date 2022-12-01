@@ -1,9 +1,9 @@
-Attribute VB_Name = "convertValues"
+﻿Attribute VB_Name = "convertValues"
 Option Compare Database
 Option Explicit
 
 '
-' COPYRIGHT � DECISION MODELS LIMITED 2006. All rights reserved
+' COPYRIGHT © DECISION MODELS LIMITED 2006. All rights reserved
 ' May be redistributed for free but
 ' may not be sold without the author's explicit permission.
 '
@@ -55,57 +55,6 @@ Function MicroTimer() As Double
 
 End Function
 
-
-Function convert2id()
-
-'Ignore empty strings
-intLength = Len(techID)
-If intLength = 0 Then
-    Exit Function
-End If
-
-'If there's a leading or trailing ; then remove
-If Mid(techID, 1, 1) = ";" Then
-    Mid(techID, 1, 1) = " "
-    techID = Trim(techID)
-    intLength = Len(techID)
-    If intLength = 0 Then
-        Exit Function
-    End If
-End If
-
-If Mid(techID, intLength, 1) = ";" Then
-    Mid(techID, intLength, 1) = " "
-    techID = Trim(techID)
-    intLength = Len(techID)
-    If intLength = 0 Then
-        Exit Function
-    End If
-End If
-
-intStartSearch = 1
-
-
-' Loop Through And Parse All the Items
-Do
-    intNextComma = InStr(intStartSearch, techID, strComma)
-    If intNextComma <> 0 Then
-        intNumberOfArrayEntries = intNumberOfArrayEntries + 1
-        intStartOfItem = intStartSearch
-        intLengthOfItem = intNextComma - intStartOfItem
-        strStateArray(intNumberOfArrayEntries) = Trim(Mid(strInputString, intStartOfItem, intLengthOfItem))
-        intStartSearch = intNextComma + 1
-    Else
-        intNumberOfArrayEntries = intNumberOfArrayEntries + 1
-        intStartOfItem = intStartSearch
-        intLengthOfItem = intLength - intStartSearch + 1
-        strStateArray(intNumberOfArrayEntries) = Trim(Mid(techID, intStartOfItem, intLengthOfItem))
-    End If
-    
-Loop Until intNextComma = 0
-    
-    
-End Function
 
 Function valTransfer()
 Dim db As DAO.Database

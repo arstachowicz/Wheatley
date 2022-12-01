@@ -1,9 +1,10 @@
-Attribute VB_Name = "emailBuilder"
+﻿Attribute VB_Name = "emailBuilder"
 Option Compare Database
 Option Explicit
 
 Function computerName() As Boolean
 'returns TRUE if the CL computer is running the code. Compares operating computer to computer name stored on database. Prevents multiple emails being sent out at once.
+'SWITCH TO SERVER IF EVER POSSIBLE!!!! DEPENDENT ON CL PC NAME REMAINING THE SAME!!!
 
 'variable callouts
     Dim sCompName As String
@@ -54,13 +55,15 @@ If lastAlert < Date Then 'prevents multiple alert emails being sent out per day
     End If
     
     Set oEmailItem = oOutlook.CreateItem(olMailitem)
-    sEmail = DLookup("[email]", "tblSupervisors", "[ID] = 3") 'sends an email to Amanda Stachowicz
+    sEmail = DLookup("[email]", "tblSupervisors", "[ID] = 23") 'sends an email to IT
     
+    If (IsNull(sEmail) = False) Then
     'creates an email
         With oEmailItem
             .To = sEmail
             .Subject = "Email Failure"
-            .Body = "The email alert system has failed."
+            .Body = "The email alert system has failed. This may be due to the CL's computer name being changed. See tblJOIN_BUILDING_ROOM to update computer names or switch " & _
+                "to server."
             .Send
         End With
                         
@@ -70,16 +73,19 @@ If lastAlert < Date Then 'prevents multiple alert emails being sent out per day
             Set oOutlook = Nothing
         
     'updates date to prevent multiple emails for that day
-        With rstTask
+        With rsTask
             .FindFirst "ID= " & lID
             .Edit
             !Check = Date
             .Update
         End With
+    Else:
+        MsgBox "Contact IT. Email alert failure"
+    End If
       
 End If
 
-    rstTask.Close
+    rsTask.Close
     db.Close
     
 End Function
@@ -122,7 +128,7 @@ Dim combined As Boolean
     
     'day/number assignments
     dayWeek = Weekday(Date, vbSunday) 'sets Sunday to 1
-    dayPM = 2 'send combined, less frequent tasks only on Monday
+    dayPM = 2 'send combined, less frequent tasks only on Monday (2)
 
     If rs.RecordCount > 0 Then 'checks if record set has any values entered
         'set start and end supervisor values

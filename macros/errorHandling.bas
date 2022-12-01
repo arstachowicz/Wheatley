@@ -1,4 +1,4 @@
-Attribute VB_Name = "errorHandling"
+﻿Attribute VB_Name = "errorHandling"
 Option Compare Database
 Option Explicit
 Public sIDFie As String
