@@ -1,0 +1,4 @@
+﻿SELECT TOP 1 tblEP.Rev, tblEP.capNum, tblEP.baseNum, qryPARTNUM_ALL.partNumber AS capStr, qryPARTNUM_ALL_1.partNumber AS baseStr, tblEP.elecLink, tblEP.csealLink, tblEP.miscLink, tblEP.epVolt, tblEP.epTime, tblEP.epPump, tblEP.fileName, tblEP.filePage, tblPART_STORAGE.ID, tblPART_STORAGE.locName AS capLoc, tblPART_STORAGE_1.ID, tblPART_STORAGE_1.locName AS baseLoc
+FROM (((tblEP LEFT JOIN qryPARTNUM_ALL ON tblEP.capNum = qryPARTNUM_ALL.uniqID) LEFT JOIN qryPARTNUM_ALL AS qryPARTNUM_ALL_1 ON tblEP.baseNum = qryPARTNUM_ALL_1.uniqID) LEFT JOIN tblPART_STORAGE ON qryPARTNUM_ALL.location = tblPART_STORAGE.ID) LEFT JOIN tblPART_STORAGE AS tblPART_STORAGE_1 ON qryPARTNUM_ALL_1.location = tblPART_STORAGE_1.ID
+WHERE (((tblEP.partNum) = 620) And ((tblEP.[R&D]) = False) And ((tblEP.obsolete) = False))
+ORDER BY tblEP.Rev DESC;

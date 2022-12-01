@@ -1,0 +1,4 @@
+﻿SELECT tblWASTEWATER.timeDate, tblLABORATORIES.nameLab, tblWASTEWATER.lvlHg, tblWASTEWATER.lvlAs, tblWASTEWATER.lvlCd, tblWASTEWATER.lvlCr, tblWASTEWATER.lvlCu, tblWASTEWATER.lvlPb, tblWASTEWATER.lvlMo, tblWASTEWATER.lvlNi, tblWASTEWATER.lvlSe, tblWASTEWATER.lvlAg, tblWASTEWATER.lvlZn, tblWASTEWATER.lvlTotSuspSolids, tblWASTEWATER.lvlP, tblWASTEWATER.lvlBOD
+FROM tblWASTEWATER LEFT JOIN tblLABORATORIES ON tblWASTEWATER.laboratory = tblLABORATORIES.ID
+WHERE (((tblWASTEWATER.timeDate)>=[TempVars]![tmpDate1] And (tblWASTEWATER.timeDate)<=[TempVars]![tmpDate2]))
+ORDER BY tblWASTEWATER.timeDate;

@@ -1,0 +1,3 @@
+﻿SELECT tblPART_01.partNumber, refREV.rev, tblPART_01.obsolete, tblPART_01.[r&d], tblPART_TYPES.partType, tblSUBCATEGORY.category, tblPART_01.notes, tblPART_STORAGE.locName, tblPART_01.creationDate, qryPARTNUM_ALL.partNumber
+FROM ((((tblPART_01 LEFT JOIN refREV ON tblPART_01.rev = refREV.ID) LEFT JOIN tblPART_TYPES ON tblPART_01.partUseage = tblPART_TYPES.ID) LEFT JOIN tblPART_STORAGE ON tblPART_01.location = tblPART_STORAGE.ID) LEFT JOIN qryPARTNUM_ALL ON tblPART_01.linkedID = qryPARTNUM_ALL.uniqID) LEFT JOIN tblSUBCATEGORY ON tblPART_01.subcategory = tblSUBCATEGORY.ID
+ORDER BY tblPART_01.partNumber, refREV.rev;

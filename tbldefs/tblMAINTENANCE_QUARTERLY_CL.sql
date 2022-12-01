@@ -1,0 +1,7 @@
+﻿CREATE TABLE [tblMAINTENANCE_QUARTERLY_CL] (
+  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [timeDate] DATETIME ,
+  [timeHour] DATETIME ,
+  [techName] LONG ,
+  [building] LONG 
+)

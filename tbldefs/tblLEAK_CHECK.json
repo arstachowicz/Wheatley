@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tblLEAK_CHECK",
+    "Connect": ";DATABASE=rel:WHEATLEY - backend\\WHEATLEY_be.accdb",
+    "SourceTableName": "tblLEAK_CHECK",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[autoID]"
+  }
+}

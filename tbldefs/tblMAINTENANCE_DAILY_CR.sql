@@ -1,0 +1,20 @@
+﻿CREATE TABLE [tblMAINTENANCE_DAILY_CR] (
+  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [timeDate] DATETIME ,
+  [timeHour] DATETIME ,
+  [temperature] LONG ,
+  [tankA] DOUBLE ,
+  [tankB] DOUBLE ,
+  [wipeSurfaces] BIT ,
+  [toolsUsed] BIT ,
+  [mats] BIT ,
+  [passThru] BIT ,
+  [trash] BIT ,
+  [mopFloor] BIT ,
+  [anteChamber] BIT ,
+  [gowningArea] BIT ,
+  [nitrogenShower] BIT ,
+  [uvLight] BIT ,
+  [restock] BIT ,
+  [techName] LONG 
+)

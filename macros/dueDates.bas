@@ -1,4 +1,4 @@
-Attribute VB_Name = "dueDates"
+﻿Attribute VB_Name = "dueDates"
 Option Compare Database
 Option Explicit
 

@@ -1,4 +1,4 @@
-Attribute VB_Name = "maintenanceCheck"
+﻿Attribute VB_Name = "maintenanceCheck"
 Option Compare Database
 Option Explicit
 
@@ -63,7 +63,7 @@ On Error GoTo Error_Handler
 
 Dim db As DAO.Database
 Dim rs1 As DAO.Recordset
-Dim rs1 As DAO.Recordset
+Dim rs2 As DAO.Recordset
 Dim qdf As DAO.QueryDef
 Dim fie As Field
 

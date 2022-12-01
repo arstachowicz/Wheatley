@@ -1,4 +1,4 @@
-Attribute VB_Name = "modMousePointers"
+﻿Attribute VB_Name = "modMousePointers"
 Option Compare Database
 Option Explicit
 
