@@ -1444,6 +1444,10 @@ Dim bLD4 As Boolean
 Dim bLD5 As Boolean
 Dim bLD6 As Boolean
 Dim bLD7 As Boolean
+Dim bLD8 as Boolean
+Dim dLD9 as Boolean
+Dim dLD10 as Boolean
+Dim dLD11 as Boolean
 
 sPR = ", "
 sN = "Null"
@@ -1491,19 +1495,31 @@ dHighFact = 2 'upper limit of allowed factor
             bLD5 = False
             bLD6 = False
             bLD7 = False
+            bLD8 = False
+            bLD9 = False
+            bLD10 = False
+            bLD11 = False
     
             'assign boolean to leak checker ID #
-            If cmbLeak = 1 Then
-                bLD4 = True
-            ElseIf cmbLeak = 2 Then
-                bLD5 = True
-            ElseIf cmbLeak = 3 Then
-                bLD6 = True
-            ElseIf cmbLeak = 4 Then
-                bLD7 = True
-            Else:
-                sLeak = Nz(cmbLeak.Value, sN)
-            End If
+            sLeak = Nz(cmbLeak.Value, sN)
+            select case sLeak
+                case 1 
+                    bLD4 = True
+                case 2 
+                    bLD5 = True
+                case 3 
+                    bLD6 = True
+                case 4
+                    bLD7 = True
+                case 5 
+                    bLD8 = True
+                case 6 
+                    bLD9 = True
+                case 7 
+                    bLD10 = True
+                case 8
+                    bLD11 = True 
+            End select
             
             If (ckLeak = True) And (tgl1Val = True) Then
                 dFactor = txtCalibrate
@@ -1530,7 +1546,7 @@ dHighFact = 2 'upper limit of allowed factor
             End If
             
             stSQL = bWalls & sPR & bCeil & sPR & False & sPR & CStr(ltechName) & sPR & bLD4 & sPR & bLD5 & sPR & bLD6 & sPR & bLD7 & _
-                    sPR & sCal & sPR & sCLR & sPR & sLR & sPR & sBack
+                    sPR & sCal & sPR & sCLR & sPR & sLR & sPR & sBack & sPr & bld8 & spr & bld9 & spr & bld10 & spr & bld11
             
             Call sqlEntryBuilder(sTbl, stSQL, True)
             MsgBox "Record successfully added."
@@ -1710,17 +1726,27 @@ sTbl = "tblMAINTENANCE_MONTHLY_CR"
         Call tgl3Act
                 
         'populate standard value field if applicable
-        If cmbLeak = 1 Then
+        sChecker = Nz(cmbLeak.Value)
+        select case cmbLeak.value 
+            case 1 
                 sChecker = "leakCal4"
-            ElseIf cmbLeak = 2 Then
+            case 2
                 sChecker = "leakCal5"
-            ElseIf cmbLeak = 3 Then
+            case 3
                 sChecker = "leakCal6"
-            ElseIf cmbLeak = 4 Then
+            case 4 
                 sChecker = "leakCal7"
+            case 5 
+                sChecker = "leakCal8"
+            case 6 
+                sChecker = "leakCal9"
+            case 7 
+                sChecker = "leakCal10"
+            case 8 
+                sChecker = "leakCal11"
             Else:
                 sChecker = Nz(cmbLeak.Value)
-            End If
+        End select
             
         dCal = Nz(DLast("[calVal]", sTbl, "[" & sChecker & "] = True"))
         
